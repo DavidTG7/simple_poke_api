@@ -49,9 +49,11 @@ body {
         border-bottom: 1px solid rgba(153, 153, 153, 0.383);
 
         &-img {
+            width: 100px;
+            height: 100px;
             border: 5px solid white;
             border-radius: 50%;
-            margin-top: calc(-48px - 5px);
+            margin-top: calc(-100px - 5px);
             background-color: white;
             // object-fit: cover;
         }
@@ -59,6 +61,7 @@ body {
         &-title {
             margin-top: 2rem;
             font-size: 1.8rem;
+            text-transform: capitalize;
 
             span {
                 color: var(--dark-gray);
