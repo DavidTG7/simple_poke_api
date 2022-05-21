@@ -111,11 +111,8 @@ body {
 }
 /*# sourceMappingURL=estilos.css.map */
 
-.fotter-author {
-  position: absolute;
-  bottom: 25%;
-  left: 40%;
-  right: 40%;
+.footer-author {
+  margin-bottom: 20px;
   text-align: center;
   font-size: 1.4rem;
   color: rgb(221, 221, 221);
