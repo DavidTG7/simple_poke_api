@@ -27,5 +27,8 @@ const pintarCard = (pokemon) => {
   const clone = template.cloneNode(true)
   const fragment = document.createDocumentFragment()
 
-  
+  clone.querySelector(".card-body-img").setAttribute("src", pokemon.sprites.other.dream_world.front_default)
+
+  fragment.appendChild(clone)
+  flex.appendChild(fragment)
 }
